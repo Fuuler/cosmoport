@@ -3,7 +3,7 @@ package com.space.service;
 import com.space.exception.ShipBadRequestException;
 import com.space.exception.ShipNotFoundException;
 import com.space.model.Ship;
-import com.space.model.ShipOrder;
+import com.space.controller.ShipOrder;
 import com.space.repository.ShipRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
